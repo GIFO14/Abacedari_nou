@@ -8,6 +8,7 @@ package Main;
 import Funcionalitats.Separador;
 import Interficie.Interficiebvc;
 import Lletres.CreadorDeLletres;
+import Lletres.Lletra;
 import javax.swing.JOptionPane;
 
 /**
@@ -16,9 +17,8 @@ import javax.swing.JOptionPane;
  */
 public class CodiTraduccióDeCatalàAAltreAlfabet {
 
-    /**
-     * @param args the command line arguments
-     */
+    private static Lletra frase_traduida[];
+    
     public static void main(String[] args) {
         
         String frase = JOptionPane.showInputDialog("Escriula frase que vulguis traduir:");

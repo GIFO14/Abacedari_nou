@@ -4,9 +4,12 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/Users/mblan/Desktop/Codi%20(traducció%20de%20català%20a%20altre%20alfabet)/src/Interficie/Interficie.java</file>
-            <file>file:/C:/Users/mblan/Desktop/Codi%20(traducció%20de%20català%20a%20altre%20alfabet)/src/Lletres/Lletra_b.java</file>
-            <file>file:/C:/Users/mblan/Desktop/Codi%20(traducció%20de%20català%20a%20altre%20alfabet)/src/Lletres/Lletra_a.java</file>
+            <file>file:/C:/Users/mblan/Desktop/Codi%20(traducció%20de%20català%20a%20altre%20alfabet)/src/Funcionalitats/Separador.java</file>
+            <file>file:/C:/Users/mblan/Desktop/Codi%20(traducció%20de%20català%20a%20altre%20alfabet)/src/Lletres/Lletra.java</file>
+            <file>file:/C:/Users/mblan/Desktop/Codi%20(traducció%20de%20català%20a%20altre%20alfabet)/src/Interficie/Interficiebvc.java</file>
             <file>file:/C:/Users/mblan/Desktop/Codi%20(traducció%20de%20català%20a%20altre%20alfabet)/src/Main/CodiTraduccióDeCatalàAAltreAlfabet.java</file>
+            <file>file:/C:/Users/mblan/Desktop/Codi%20(traducció%20de%20català%20a%20altre%20alfabet)/src/Lletres/CreadorDeLletres.java</file>
+            <file>file:/C:/Users/mblan/Desktop/Codi%20(traducció%20de%20català%20a%20altre%20alfabet)/src/Funcionalitats/SaberLletra.java</file>
         </group>
     </open-files>
 </project-private>

@@ -1,6 +1,8 @@
 
 package Funcionalitats;
 
+import Lletres.Lletra;
+
 /**
  *
  * @author mblan
@@ -8,13 +10,17 @@ package Funcionalitats;
 public class Separador {
     
     public static String[] frase_separada_per_lletres;
-    public static Lletra lletra_actual;
+    public static Lletra[] frase_traduida;
     
-    public static void Separar(String frase){
+    public static Lletra Separar(String frase){
         
+        frase_traduida = new Lletra[frase.length()];
+        
+        frase = frase.replace(" ", "");
         frase_separada_per_lletres = frase.split("");
-        lletra_actual = SaberLletra.Saber_lletra(frase_separada_per_lletres);
+        SaberLletra.Saber_lletra(frase_separada_per_lletres);
         
+        return lletra_actual;
     }
     
 }
