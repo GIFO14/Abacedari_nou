@@ -60,75 +60,91 @@ public class SaberLletra {
             }
             if (frase_separada_per_lletres[i].equalsIgnoreCase("j")) {
 
-                return CreadorDeLletres.j;
+                Separador.frase_traduida[i] = CreadorDeLletres.j;
+                break;
             }
             if (frase_separada_per_lletres[i].equalsIgnoreCase("k")) {
 
-                return CreadorDeLletres.k;
+                Separador.frase_traduida[i] = CreadorDeLletres.k;
+                break;
             }
             if (frase_separada_per_lletres[i].equalsIgnoreCase("l")) {
 
-                return CreadorDeLletres.l;
+                Separador.frase_traduida[i] = CreadorDeLletres.l;
+                break;
             }
             if (frase_separada_per_lletres[i].equalsIgnoreCase("m")) {
 
-                return CreadorDeLletres.m;
+                Separador.frase_traduida[i] = CreadorDeLletres.m;
+                break;
             }
             if (frase_separada_per_lletres[i].equalsIgnoreCase("n")) {
 
-                return CreadorDeLletres.n;
+                Separador.frase_traduida[i] = CreadorDeLletres.n;
+                break;
             }
             if (frase_separada_per_lletres[i].equalsIgnoreCase("o")) {
 
-                return CreadorDeLletres.o;
+                Separador.frase_traduida[i] = CreadorDeLletres.o;
+                break;
             }
             if (frase_separada_per_lletres[i].equalsIgnoreCase("p")) {
 
-                return CreadorDeLletres.p;
+                Separador.frase_traduida[i] = CreadorDeLletres.p;
+                break;
             }
             if (frase_separada_per_lletres[i].equalsIgnoreCase("q")) {
 
-                return CreadorDeLletres.q;
+                Separador.frase_traduida[i] = CreadorDeLletres.q;
+                break;
             }
             if (frase_separada_per_lletres[i].equalsIgnoreCase("r")) {
 
-                return CreadorDeLletres.r;
+                Separador.frase_traduida[i] = CreadorDeLletres.r;
+                break;
             }
             if (frase_separada_per_lletres[i].equalsIgnoreCase("s")) {
 
-                return CreadorDeLletres.s;
+                Separador.frase_traduida[i] = CreadorDeLletres.s;
+                break;
             }
             if (frase_separada_per_lletres[i].equalsIgnoreCase("t")) {
 
-                return CreadorDeLletres.t;
+                Separador.frase_traduida[i] = CreadorDeLletres.t;
+                break;
             }
             if (frase_separada_per_lletres[i].equalsIgnoreCase("u")) {
 
-                return CreadorDeLletres.u;
+                Separador.frase_traduida[i] = CreadorDeLletres.u;
+                break;
             }
             if (frase_separada_per_lletres[i].equalsIgnoreCase("v")) {
 
-                return CreadorDeLletres.v;
+                Separador.frase_traduida[i] = CreadorDeLletres.v;
+                break;
             }
             if (frase_separada_per_lletres[i].equalsIgnoreCase("w")) {
 
-                return CreadorDeLletres.w;
+                Separador.frase_traduida[i] = CreadorDeLletres.w;
+                break;
             }
             if (frase_separada_per_lletres[i].equalsIgnoreCase("x")) {
 
-                return CreadorDeLletres.x;
+                Separador.frase_traduida[i] = CreadorDeLletres.x;
+                break;
             }
             if (frase_separada_per_lletres[i].equalsIgnoreCase("y")) {
 
-                return CreadorDeLletres.y;
+                Separador.frase_traduida[i] = CreadorDeLletres.y;
+                break;
             }
             if (frase_separada_per_lletres[i].equalsIgnoreCase("z")) {
 
-                return CreadorDeLletres.z;
+                Separador.frase_traduida[i] = CreadorDeLletres.z;
             }
 
         }
 
     }
-    
+
 }

@@ -11,13 +11,13 @@ import javax.swing.JLabel;
 public class Lletra {
     
     public JLabel forma = new JLabel();
-    public double posicio_X;
-    public double posicio_Y;
+    public int pixels_ample, pixels_alt, posicio_Y;
     
-    public Lletra (JLabel forma, double posicio_X, double posicio_Y){
+    public Lletra (JLabel forma, int pixels_ample, int pixels_alt, int posicio_Y){
         
         this.forma = forma;
-        this.posicio_X = posicio_X;
+        this.pixels_ample = pixels_ample;
+        this.pixels_alt = pixels_alt;
         this.posicio_Y = posicio_Y;
         
     }

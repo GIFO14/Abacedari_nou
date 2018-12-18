@@ -6,9 +6,11 @@
 package Main;
 
 import Funcionalitats.Separador;
-import Interficie.Interficiebvc;
+import Interficie.Interficie;
 import Lletres.CreadorDeLletres;
 import Lletres.Lletra;
+import javax.swing.ImageIcon;
+import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 
 /**
@@ -18,22 +20,39 @@ import javax.swing.JOptionPane;
 public class CodiTraduccióDeCatalàAAltreAlfabet {
 
     private static Lletra frase_traduida[];
+    private static int posicio_X;
     
     public static void main(String[] args) {
         
+        //Pregunta quina frase s'ha de traduir i la tradueix
         String frase = JOptionPane.showInputDialog("Escriula frase que vulguis traduir:");
-        Separador.Separar(frase);
+        frase_traduida = Separador.Separar(frase);
         
-        Interficiebvc i = new Interficiebvc();
-        i.setBounds(0,0,1000,500);
+        //Crea la interfície gràfica
+        Interficie i = new Interficie();
+        i.setSize(1000,500);
         i.setVisible(true);
         i.setResizable(false);
+        
+        
+        //Personalitza el fondo i posiciona les lletres al seu lloc
+        JLabel background;
+        ImageIcon img = new ImageIcon("Imatges/blue-bulbs-idea-91413.jpg");
+        background = new JLabel("", img, JLabel.CENTER);
+        background.setBounds(0,0,1000,500);
+        i.add(background);
+        
         i.setLocationRelativeTo(null);
         
-        CreadorDeLletres c = new CreadorDeLletres();
-        c.f();
-        
-        
+        for(int j = 0; j < frase_traduida.length; j++){
+            
+            JLabel forma_lletra_traduida = frase_traduida[j].forma;
+            forma_lletra_traduida.setBounds(posicio_X, frase_traduida[j].posicio_Y, frase_traduida[j].pixels_ample, frase_traduida[j].pixels_alt);
+            i.add(forma_lletra_traduida);
+            
+            posicio_X += 50;
+            
+        }
     }
     
 }
