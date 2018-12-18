@@ -9,8 +9,10 @@ import javax.swing.JLabel;
  */
 public class CreadorDeLletres {
 
-    private static JLabel imatge_a, imatge_b, imatge_c, imatge_d, imatge_e, imatge_f, imatge_g, imatge_h, imatge_i, imatge_j, imatge_k, imatge_l, imatge_m, imatge_n, imatge_o, imatge_p, imatge_q, imatge_r, imatge_s, imatge_t, imatge_u, imatge_v, imatge_w, imatge_x, imatge_y, imatge_z;
-    public static Lletra a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z;
+    private static JLabel imatge_a, imatge_b, imatge_c, imatge_d, imatge_e, imatge_f, imatge_g, imatge_h, imatge_i, imatge_j, imatge_k, imatge_l, imatge_m, imatge_n, 
+                          imatge_o, imatge_p, imatge_q, imatge_r, imatge_s, imatge_t, imatge_u, imatge_v, imatge_w, imatge_x, imatge_y, imatge_z, imatge_espai;
+    
+    public static Lletra a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z, espai;
 
     public static void CrearLletres() {
 
@@ -91,6 +93,9 @@ public class CreadorDeLletres {
 
         imatge_z.setIcon(new ImageIcon("Imatges/logo(Z).png"));
         z = new Lletra(imatge_z, 0);
+        
+        imatge_espai.setIcon(new ImageIcon("Imatges/logo(Z).png"));
+        espai = new Lletra(imatge_espai, 0);
 
     }
 
